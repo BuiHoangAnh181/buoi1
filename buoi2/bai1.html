@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style> 
+    body {
+    text-transform: capitalize;}
+    .container {width: 100%;
+        height: 100%;}
+    .container1 {width: 80%;
+        float: right;
+    height: 30%;}
+    .sidebar {width: 20%;
+    float: left;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
+    position: relative;
+    position: fixed;
+    }
+    .sidebar div{position: absolute;
+    top: 100px;}
+    .sidebar a {font-size: 18px !important;
+    text-decoration: none;
+color: grey;}
+    img {
+        width: 100%;
+    }
+    .row {display: flex;}
+    ul {display: flex;
+        list-style: none;
+        justify-content: center;
+        margin-top: 30px;
+
+    }
+    li {padding:5px;
+    margin: 10px;}
+    .container1-2 {background-color:#616161;}
+    .childofc1-4 {display: flex;
+    flex-direction: row;
+justify-content: space-evenly;}
+    .childofc1-6 {display: flex;
+    flex-direction: row;
+justify-content: space-evenly;}
+    .info,.blog,.popular {width: 30%;}
+    .childofc1-2,.childofc1-2,.childofc1-3,.childofc1-4 {
+        color: white;
+        background-color: #616161;
+        border-bottom: 1px solid white ;
+    }
+    h3 {padding: 30px 0;}
+    .basic ,.pro {width: 49%;}
+    .basic:hover,.pro:hover {animation: animation1 0.6 initial;}
+    .basic h3,.pro h3 {background-color: black;
+    color: white;
+text-align: center;
+padding: 20px;margin-bottom: 0;}
+
+    .basic div,.pro div {background-color:gray ;
+    padding: 20px;
+text-align: center;}    
+    input {width: 100%;
+    margin: 10px 0;}
+    .send {
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 40px;
+    margin: 10px 0;
+    line-height: 40px;
+}
+    a {text-decoration: none;
+    color: white;}
+    .download {background-color: black;
+        color: white;
+        text-align: center;
+    height: 40px;
+width: fit-content;
+line-height: 40px;}
+
+.percent-is {width: 95%;}
+.percent-is1 {width: 85%;}
+.percent-is2 {width: 80%;}
+.percent div {background-color: gray;
+height: 35px;
+text-align: center;
+line-height: 35px;}
+strong {font-size: 30px;}
+img:hover {
+    animation: animation1 2s infinite;
+}
+a:hover {cursor: default;}
+@keyframes animation1 {
+    0% {transform: scale(1.0);
+    opacity: 0.7;}
+    100% {transform: scale(1.05);
+    opacity: 1;}
+    
+}
+.basic div:hover,.pro div:hover {background-color: white;
+color: black;
+animation: animation1 0.3s infinite;}
+
+    
+}
+.signup:hover {background-color: grey;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+           <div> Some <br>
+            name <br>
+            <br>
+            <br><br><br>
+            <a href="#">portfolio</a> <br>
+            <a href="#">about me</a> <br>
+            <a href="#">contact</a>
+        </div>
+        </div>
+            <div class="container1">
+                <div class="row">
+                    <div><img src="./natureboy.jpg" alt=""></div>
+                    <div><img src="./man_bench.jpg" alt=""></div>
+                    <div><img src="./girl_train.jpg" alt=""></div>
+                </div>
+                <div class="row">
+                    <div><img src="./natureboy (1).jpg" alt=""></div>
+                    <div><img src="./girl_mountain.jpg" alt=""></div>
+                    <div><img src="./girl.jpg" alt=""></div>
+                </div>
+                <div class="row">
+                    <div><img src="./closegirl.jpg" alt=""></div>
+                    <div><img src="./boy.jpg" alt=""></div>
+                    <div><img src="./girl (1).jpg" alt=""></div>
+                </div>
+                <ul>
+                    <a href="#" class="w3-button">&laquo;</a>
+                    <a href="#" class="w3-button w3-blue">1</a>
+                    <a href="#" class="w3-button">2</a>
+                    <a href="#" class="w3-button">3</a>
+                    <a href="#" class="w3-button">4</a>
+                    <a href="#" class="w3-button">&raquo;</a>
+                </ul>
+                <div class="container1-2">
+                    <div class="childofc1-2" style="width: 55%; margin: auto;">
+                        <h3 style="text-align: center;font-weight: 500;">about me</h3>
+                        <div class="imgabm"><img src="./avatar_hat.jpg" alt=""></div>
+                        <div class="myname" style="width: 100%;">
+                            <h3>my name</h3>
+                            <p class="prgr">Some text about me. I love taking photos of PEOPLE. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <br>
+                            <p class="mail">mail: example@example.com</p>
+                            <br>
+                            <p class="tel">tel: 5353 35531</p>
+                        </div>
+
+                    </div>
+                
+                <div class="childofc1-3" style="width: 55%; margin: auto;">
+                    <h3>technical skills</h3>
+                    <h4>photography</h4>
+                    <div class="percent" style="background-color: white;">
+                        <div class="percent-is">95%</div>
+
+                    </div>
+
+download
+                    
+                    <h4>web design</h4>
+                    <div class="percent" style="background-color: white;">
+                        <div class="percent-is1">85%</div>
+
+                    </div>
+
+
+                    <h4>photoshop</h4>
+                    <div class="percent" style="background-color: white;">
+                        <div class="percent-is2">80%</div>
+
+                    </div>
+                    
+                       <div class="download" style="margin: 20px 0;"><a class="download" href="">download resume</a> </div>
+                    
+                </div>
+
+                <div class="childofc1-4" style="width: 55%;margin: auto;">
+                    <div class="basic">
+                        <h3>basic</h3>
+                        <div>web design</div>
+                        <div>photography</div>
+                        <div>5GB storage</div>
+                        <div>mail support</div>
+                        <div > <strong>$ 10 </strong> <br>
+                        per month</div>
+                        <div style="text-align: center;background-color: black;">
+                            <a style="color: white;" class="signup" href="#">sign up</a>
+                        </div>
+                    </div>
+                    <div class="pro">
+                        <h3>pro</h3>
+                        <div>web design</div>
+                        <div>photography</div>
+                        <div>5GB storage</div>
+                        <div>mail support</div>
+                        <div><strong>$ 25 </strong>  <br>
+                        per month</div>
+                        <div style="text-align: center;background-color: black;">
+                            <a style="color: white;" class="signup" href="#">sign up</a>
+                        </div>
+                    </div>
+                   55
+                </div>
+            </div>
+                <div table class="table" style="width: 55%;margin: auto;">
+                    <h3>contact me</h3>
+                    <p>Do you want me to photograph you? Fill out the form and fill me in with the details :) I love meeting new people!</p>
+                    <div>name 
+                       <div><input type="text" ></div> 
+                    </div>
+                    <div>email
+                        <div><input type="text"></div>
+                    </div>
+                    <div>message
+                        <div><input type="text"></div>
+                    </div>
+                    <div class="send"><a href="#">send message</a></div>
+                </div>
+                
+                <div class="childofc1-6">
+                    <div class="info"> <h3>info</h3>
+                        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.
+
+                        </p>
+                    </div>
+                    <div class="blog">
+                       <h3>blog posts</h3>
+                        <div class="lorem">lorem
+                            <p>sed mattis nunc</p>
+
+                        </div>
+                        <div class="ipsum">ipsum
+                            <p>praes tinci sed</p>
+
+                        </div>
+                    </div>
+                    <div class="popular"> 
+                        <h3>popular</h3>
+                        <a href="#">travel</a>
+                        <a href="#">new york</a>
+                        <a href="#">london</a>
+                        <a href="#">IKEA</a>
+                        <a href="#">NORWAY</a>
+                        <a href="#">DIY</a>
+                        <a href="#">ideas</a>
+                        <a href="#">baby</a>
+                        <a href="#">family</a>
+                        <a href="#">news</a>
+                        <a href="#">clothing</a>
+                        <a href="#">shopping</a>
+                        <a href="#">sports</a>
+                        <a href="#">games</a>
+                            
+                    </div>
+                    
+                    
+
+                    
+                </div>
+                <div style="background-color:#000 ;color: white;text-align: center;height: 70px;line-height: 70px;">
+                    power by <a href="#">w3.css</a>
+                </div>
+            </div>
+        </div>
+            
+    </div>
+    
+
+    
+</body>
+</html>
