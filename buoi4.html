@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+    <style> 
+    *{padding: 0;margin: 0;}
+    body {min-width: 1400px;
+        max-width: 1400px;
+    margin: auto;}
+
+    .header {list-style: none;
+        font-weight: bolder;
+       margin: 0;
+    height: 110px;}
+    /* .header:before {
+        content:"\f549" ;
+        font-family:"Font Awesome 5 Free";
+        font-weight:900;
+    } */
+    
+        li { margin: 10px 0px;
+        display: inline-block;
+    margin:10px 0px 0 10px;
+text-transform: capitalize;}
+        .header li {border: 1px solid white ;
+            
+            width: 150px;
+        height: 98px;
+    line-height: 98px;
+text-align: center;
+font-size: 21px;}
+.website,.paidcources,.login {border-radius: 25px;}
+.Tutorials::after,.references::after,.excercises::after,.video::after {content: "\f0d7";
+margin: 2px;
+font-size: 25px;
+font-family:"Font Awesome 5 Free" ;
+font-weight: 900;
+}
+.header li:hover{background-color: rgb(4, 170, 120) !important;
+cursor: pointer;}
+        .login {float: right;}
+        .paidcources {float: right;}
+        .website {float: right;}
+.newvideo {position: relative;}
+.newvideo2 {position: absolute;
+
+display:none ;
+width: 100px;
+top: 120%;}
+.newvideo:hover .newvideo2 {display: block;}
+.blackrow li {margin-top: 0 !important;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    line-height: 40px;
+    
+
+width: auto;
+height: 40px;
+font-size: 20px;
+color: white;
+transform: translateY();
+}
+.blackrow {display: inline-block;
+    background-color: #282A35;
+    width: 100%;
+    height: fit-content;
+    
+    
+}
+.icons3 {float: right;
+}
+.blackrow .icons3 i {margin-right: 15px;}
+.blackrow li:hover {background-color:rgb(4, 170, 109);
+    cursor: crosshair;
+    }
+.logo {width: 100px !important;
+    height: 98px;
+    line-height: 98px;
+    
+}
+.header .logo::selection {transform: scaleX(1.5);
+
+border: none;}
+p:hover {transform: scale(1.2,1.2);}
+.drop {background-color: black;
+    min-width: 1400px;
+max-width: 1400px;}
+        h1,h2 {color:#FFF4A3 ;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+         div {color: white;}
+        .HTMLCSS,.jvscript,.server,.data,.programing,.web,.XML {
+            text-transform: capitalize;
+        }
+        h2 {font-size: 30px;
+        text-align: left !important;}
+        h1 {border: 1px sodid black;
+        height: 96px;
+    width: 100%;
+padding-top: 50px;
+font-size: 50px;
+text-align: left !important;
+margin-left: 110px;}
+    .container {display: flex;
+    flex-direction: row;
+justify-content: space-evenly;}
+    h2 div {text-align: left !important;
+        font-size: 20px;
+font-weight:400;}
+h2 div:hover {
+    background-color:white ;
+    color:black  ;
+    font-weight: bolder;
+}
+        
+    
+    .header .Tutorials{position: relative;
+        transition: initial;
+    }
+    .drop {box-sizing: inherit;
+        position: absolute;
+    top: 140%;
+    left: -126px;
+display: none;
+width: initial;}
+.header .Tutorials:hover .drop {display: block;
+line-height: 50px !important;
+position: relative;
+animation: animation 0.5s forwards reverse;}
+@keyframes animation {
+    0% {top: 40px;}
+    100% {top :400px}
+    
+}
+
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <ul class="header">
+        <li class="logo"><a href=""><img src="./w3s.jpg" alt="" width="44.75px" height="42px"></a></li>
+        <li class="Tutorials">Tutorials
+            <div class="drop">
+                <h1>Tutorials</h1>
+                <div class="container">
+                <div class="column1">
+                <h2 class="HTMLCSS">HTML and CSS
+                    
+                        <div>learn HTML</div>
+                        <div>learn CSS</div>
+                        <div>learn RWD</div>
+                        <div>learn Bootstrap</div>
+                        <div>learn w3.css</div>
+                        <div>learn color</div>
+                        <div>learn icons</div>
+                        <div>learn graphics</div>
+                        <div>learn SVG</div>
+                        <div>learn Canvas</div>
+                        <div>learn how to</div>
+                        <div>learn sass</div>
+                        
+                    
+                </h2>
+            </div>
+                <div class="column2">
+                <h2 class="jvscript">javaScript
+                    
+                        <div>learn javaScript</div>
+                        <div>learn jquery</div>
+                        <div>learn angularJS</div>
+                        <div>learn JSON</div>
+                        <div>learn AJAX</div>
+                        <div>learn AppML</div>
+                        <div>learn W3.JS</div>
+                        
+                    
+                </h2>
+                <h2 class="programing">programming
+                    
+                        <div>learn python</div>
+                        <div>learn java</div>
+                        <div>learn C++</div>
+                        <div>learn C#</div>
+                        <div>learn R</div>
+                        <div>learn kotdivn</div>
+                        <div>learn Go</div>
+                    
+                </h2>
+            </div>
+            <div class="colum3">
+                <h2 class="server">server side
+                    <div>learn SQL</div>
+                        <div>learn MySQL</div>
+                        <div>learn PHP</div>
+                        <div>learn ASP</div>
+                        <div>learn Node.js</div>
+                        <div>learn Raspberry Pi</div>
+                        <div>learn GIT</div>
+                        <div>learn AWS Cloud</div>
+                    
+            
+                </h2>
+                <h2 class="web">web building
+                    
+                        <div>creat a website</div>
+                        <div>where to start</div>
+                        <div>web templates</div>
+                        <div>web statistics</div>
+                        <div>web certificates</div>
+                        <div>web development</div>
+                        <div>code editor</div>
+                        <div>test your typing speed</div>
+                        <div>play a code game</div>
+                        <div>cyber security</div>
+                        <div>accessibidivty</div>
+                    
+                </h2>
+            </div>
+            <div class="column4">
+                <h2 class="data">data analyst
+                    
+                        <div>learn AL</div>
+                        <div>learn machine learning</div>
+                        <div>learn data science</div>
+                        <div>learn numPy</div>
+                        <div>learn pandas</div>
+                        <div>learn SciPy</div>
+                        <div>learn Matplotdivb</div>
+                        <div>learn Statistics</div>
+                        <div>learn Excel</div>
+                        <div>learn Google sheets</div>
+                    
+                </h2>
+             
+               
+                <h2 class="XML">XML Tutorials
+                    
+                        <div>learn XML</div>
+                        <div>learn XML AJAX</div>
+                        <div>learn XML DOM</div>
+                        <div>learn XML Schema</div>
+                        <div>learn XSLT</div>
+                        <div>learn XPath</div>
+                        <div>learn Xquery</div>
+                    
+                        </h2>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="references">references</li>
+        <li class="excercises">excercises</li>
+        <li class="video">video
+            <button class="newvideo" style="border-radius: 20PX;font-size: 10PX;PADDING:5PX;">NEW
+                <div style="border:1px solid black;padding:5px;background-color: white;color: black;" class="newvideo2">NEW VIDEO</div>
+                </button>
+        </li>
+        <li style="background-color: rgb(4, 170, 109);height: 55px;line-height: 55px;transform: translateY(50%);"  class="login">log in</li>
+        <li style="width: 150px;height: 55px;line-height: 55px;transform: translateY(50%)" class="paidcources">paid cources</li>
+        <li style="background-color: #FFC0C7;width: 150PX;height: 55px;line-height: 55px;transform: translateY(50%)" class="website">website
+            <button style="border-radius: 20PX;font-size: 10PX;PADDING:5PX">NEW</button></li>
+    </ul>
+        
+    </div>
+    <ul class="blackrow">
+        <li> <i class="fas fa-home"></i> </li>
+    <li class="html"><p>html</p></li>
+    <li class="css"><p>css</p></li>
+    <li class="java"><p>java</p></li>
+    <li class="sql"><p>sql</p></li>
+    <li class="python"><p>python</p></li>
+    <li class="php"><p>php</p></li>
+    <li class="bootstrap"><p></p>bootstrap</p></li>
+    <li class="w3"><p>w3.css</p></li>
+    <li class="jv"><p>java</p></li>
+    <li class="jquery"><p>jquery</p></li>
+    <li class="cpp"><p>c++</p></li>
+    <li class="icons3">
+        <i class="fas fa-bullseye"></i>
+    <i class="fas fa-globe-americas"></i>
+    <i class="fas fa-search"></i>
+</li>
+    </ul>
+    
+</body>
+</html>
